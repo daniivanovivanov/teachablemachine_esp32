@@ -34,7 +34,7 @@ Instead of overwhelming the ESP32's limited memory, this architecture cleverly u
 ## How to use:
 1. **Train your model:** Create your image classification model using [Google Teachable Machine](https://teachablemachine.withgoogle.com/) and download the `.zip` files.
 2. **Upload weights to GitHub:** Upload the `model.json`, `metadata.json`, and `weights.bin` to the root of your repository.
-3. **Flash the ESP32:** * Open the `.ino` file in the Arduino IDE.
+3. **Flash the ESP32:** Open the `.ino` file in the Arduino IDE.
    * Install the `LiquidCrystal_I2C` library.
    * Change the `ssid` and `password` variables to match your home WiFi.
    * Upload the code to your ESP32.
@@ -43,7 +43,7 @@ Instead of overwhelming the ESP32's limited memory, this architecture cleverly u
    * Open a web browser on your smartphone or PC and navigate to that IP.
    * Tap **"Activar Cámara"**, allow camera permissions, and start scanning objects!
 
-> **Note on Mobile Browsers (WebRTC Security):** > Modern mobile browsers restrict camera access on non-HTTPS local networks. To bypass this on Android, navigate to `chrome://flags`, search for "Insecure origins treated as secure", add your ESP32's IP address, enable it, and restart the browser. Alternatively, open the IP address from a PC web browser.
+> **Note on Mobile Browsers (WebRTC Security):** Modern mobile browsers restrict camera access on non-HTTPS local networks. To bypass this on Android, navigate to `chrome://flags`, search for "Insecure origins treated as secure", add your ESP32's IP address, enable it, and restart the browser. Alternatively, open the IP address from a PC web browser.
 
 ## Dependencies:
 * TensorFlow.js
