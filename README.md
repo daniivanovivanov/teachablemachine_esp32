@@ -19,9 +19,9 @@ Instead of overwhelming the ESP32's limited memory, this architecture cleverly u
 * Calculadora científica (Scientific calculator)
 
 ## Hardware Requirements:
-* **ESP32 Dev Module** (Standard version, no camera needed).
-* **1602 LCD Display** with an **I2C Module**.
-* Jumper wires.
+* **ESP32 Dev Module** (Standard version, no camera needed)
+* **1602 LCD Display** with an **I2C Module**
+* Jumper wires
 
 ### Wiring Guide:
 | ESP32 Pin | LCD I2C Pin |
